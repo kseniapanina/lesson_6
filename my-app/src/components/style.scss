@@ -1,0 +1,28 @@
+form{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 50px; 
+    text-align: center;
+
+    button{
+        background-color: rgb(88, 84, 84);
+        color: white;
+        display: inline-block;
+        width: 5em;
+        height: 2em;
+        line-height: 2em;
+        vertical-align: middle;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(0,0,0);
+        border: 1px solid rgba(0,0,0,.4);
+        border-radius: 2px;
+        background: linear-gradient(rgb(107, 99, 99), rgb(240,240,240));
+        margin-top: 30px;
+    }
+    button:hover:not(:active) {
+        box-shadow:
+          0 -1px 1px 1px rgba(0,255,255,.5);
+      }
+    
+}
